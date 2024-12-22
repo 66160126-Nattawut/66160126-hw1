@@ -39,22 +39,27 @@
     width: 100%;
    }
    input[type="text"] {
-    border: 2px solid blue;
+    border: 2px solid;
     padding: 5px;
 }
 input[type="tel"] {
-    border: 2px solid blue;
+    border: 2px solid;
     padding: 5px;
 }
 input[type="password"] {
-    border: 2px solid blue;
+    border: 2px solid ;
     padding: 5px;
 }
 input[type="email"] {
-    border: 2px solid blue;
+    border: 2px solid;
     padding: 5px;
 }
 button{
     border:2px solid black;
+    padding: 5px;
+    color: #000000;
+}
+textarea{
+    border: 2px solid;
     padding: 5px;
 }
