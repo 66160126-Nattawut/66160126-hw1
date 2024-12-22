@@ -23,10 +23,11 @@
     <h2>ฟอร์มติดต่อ</h2>
         <form id="myForm" name="myForm" onsubmit="return validationForm()" novalidate autocomplete="off">
             <input type="text" required pattern="[A-Za-z]{3,}" title="อย่างน้อย 3 ตัว" placeholder =" ชื่อ-นามสกุล"><br>
+            <input type="radio" id="male" name="gender" value="male"><label for="male">ชาย</label><input type="radio" id="female" name="gender" value="female"><label for="female">หญิง</label><br>
             <input type="email"placeholder =" อีเมล"><br>
             <input type="password"placeholder =" รหัสผ่าน"><br>
             <input type="tel" required pattern="[0-9]{10}" title ="เบอร์โทร 10 หลัก"  placeholder =" เบอร์โทรศัพท์"><br>
-            <input type="text"title="ไม่เกิน200ตัวอักษร"  placeholder =" ข้อความ "><br>
+            <textarea id="meassage" name="meassage" rows="3" cols="50"></textarea><br>
             <button type ="submit">ยืนยัน</button>
             <button type ="reset">ล้างข้อมูล</button>
         </form>
