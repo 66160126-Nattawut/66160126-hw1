@@ -7,7 +7,7 @@
  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
- <header role = "banner">
+ <header class = "banner">
     <h1>แนะนำสถานที่ท่องเที่ยวของระยอง</h1>
  <nav>
  <ul>
@@ -19,7 +19,7 @@
  </header>
  <main role ="main">
     <article>
-        <header>
+        <header class = "banner">
         <h2>จังหวัดระยอง</h2>
         <p>เผยแพร่: <time datetime="2024-12-17">17 ธันวาคม 2567</time></p>
         </header>
@@ -28,6 +28,15 @@
             <legend>คำขวัญจังหวัดระยอง</legend>
             <p> ผลไม้รสล้ำ อุตสาหกรรมก้าวหน้า น้ำปลารสเด็ด เกาะเสม็ดสวยหรู สุนทรภู่กวีเอก </p>
             </fieldset>
+            <header class="header">
+                <h1>ภาพรวมจังหวัดระยอง</h1>
+                <nav class="filters">
+                    <button class="filter-btn active" data-filter="all">ทั้งหมด</button>
+                    <button class="filter-btn" data-filter="nature">ธรรมชาติ</button>
+                    <button class="filter-btn" data-filter="city">เมือง</button>
+                    <button class="filter-btn" data-filter="people">ผู้คน</button>
+                </nav>
+            </header>
         </section>
         </article>
         
